@@ -6,14 +6,14 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            var checking = new CheckingAccount("JohnDoe", 15);
+            var checking = new CheckingAccount("Dalien", 1500);
 
             Console.WriteLine($"A new checking account for {checking.Name} is open with a balance of {checking.Balance:C}");
 
             Console.WriteLine("Would you like to withdraw an amount? (Y/N)");
 
-            int myValue = 15;
-            var myResult = myValue.ToString();
+            /*int myValue = 15;
+            var myResult = myValue.ToString();*/
 
             var isWithdrawal = Console.ReadLine();
 
